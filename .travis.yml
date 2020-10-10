@@ -1,2 +1,5 @@
 language: java
-jdk: -jdk1.8
+jdk:
+  - oraclejdk8
+script:
+  - mvn clean package -DskipTests=true
